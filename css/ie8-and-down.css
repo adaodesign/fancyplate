@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav > ul > li:hover > ul > li.arrow-up {
+	width:10px;
+	height:5px;
+	background:url(../images/navarrow.png);
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.thecubi-IE8 {
+	width:892px;
+	height:641px;
+	margin:0 auto;
+	margin-top:50px;
+	background:url(../images/the-qubi-flat.jpg);
+}
+
+.whyqbic-IE {
+	display:block;
+}

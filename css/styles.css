@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	transition:.2s linear;
+ 	-moz-transition:.2s linear;
+  	-webkit-transition:.2s linear;
+	text-decoration:none;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+	height:100%;
+	width:100%;
+}
+
+/*========================================================
+====================== STYLE IT UP! ======================
+========================================================*/
